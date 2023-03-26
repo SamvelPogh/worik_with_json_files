@@ -1,0 +1,39 @@
+[
+  {
+    "name": "samvel",
+    "age": 21,
+    "address": "zeytun"
+
+
+  },
+  {
+    "name": "karen",
+    "age": 45,
+    "address": "glendel"
+  },
+  {
+    "name": "mari",
+    "age": 25,
+    "address": "parz lich"
+  },
+  {
+    "name": "sirush",
+    "age": 13,
+    "address": "hadrut"
+  },
+
+  {
+    "name": "garik",
+    "age": 73,
+    "address": "georges street"
+  },
+
+  {
+    "name": "lusine",
+    "age": 20,
+    "address": "komitas"
+  }
+
+
+
+]
