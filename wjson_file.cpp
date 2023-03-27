@@ -24,11 +24,11 @@ struct person {
 //function that takes an argument of type json, places it in a vector and returns us a vector of type person
 std::vector<person> pars_tovec(json dat) {
 	std::vector<person> people;
-	for (auto& p : data) {
+	for (int i = 0;i<data.size();++i) {
 		person pi;
-		pi.name = p["name"];
-		pi.addres = p["address"];
-		pi.age = p["age"];
+		pi.name = data[i]["name"];
+		pi.addres = data[i]["address"];
+		pi.age = data[i]["age"];
 		people.push_back(pi);
 	}
 	return people;
